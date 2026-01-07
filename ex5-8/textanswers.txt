@@ -21,4 +21,13 @@ a similar effect is achieved if you change line 9 of the example code to:
 	char incomingByte = Serial.read()
 
 
+6a)
+
+A char is the smallest datatype capable of representing characters, rather than numbers. It uses a minimum of 8 bits (1 byte :D )
+
+6b)
+
+The resulting character is D - this makes sense, following character arithmetic - in essence, we are taking the bit value for A, adding 4 and subtracting 1 - pushing us 3 registers to the right, giving us D (3rd letter after A)
+
+
 
