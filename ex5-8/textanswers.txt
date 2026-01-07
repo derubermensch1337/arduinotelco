@@ -1,0 +1,11 @@
+5a)
+
+In the setup, the bitrate for communication is set.
+
+Then, during the loop, the Arduino will continually check if there is any data in the
+input buffer that hasn't been processed yet. If there is, it prints a status message to serial
+showing what the information in there is. Serial.read() only reads one byte at a time, so longer messages sent over serial shall be printed out piecewise.
+
+5
+
+
