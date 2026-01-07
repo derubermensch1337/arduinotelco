@@ -6,6 +6,19 @@ Then, during the loop, the Arduino will continually check if there is any data i
 input buffer that hasn't been processed yet. If there is, it prints a status message to serial
 showing what the information in there is. Serial.read() only reads one byte at a time, so longer messages sent over serial shall be printed out piecewise.
 
-5
+5d)
+
+We are directly printing the byte value of the first piece of data recieved.
+
+5e) 
+
+A line ending returns a byte value of 10, or dec, as it is used in the code provided in the question. So a 10 is printed following the other characters in the serial input.
+
+5f)
+
+We are declaring the type of incomingByte to be a char - this forces the compiler to read the byte as a character datatype, so it refers to the ASCII code.
+a similar effect is achieved if you change line 9 of the example code to:
+	char incomingByte = Serial.read()
+
 
 
