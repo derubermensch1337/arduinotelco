@@ -30,4 +30,13 @@ A char is the smallest datatype capable of representing characters, rather than 
 The resulting character is D - this makes sense, following character arithmetic - in essence, we are taking the bit value for A, adding 4 and subtracting 1 - pushing us 3 registers to the right, giving us D (3rd letter after A)
 
 
+7a)
+
+An RGB value is a 24-bit unsigned representation of the 'presence' of the colors Red, Green and Blue. Each color is assigned 8 bits to represent the hue strength, resulting in each color being assigned a value between 0-255.
+
+7b)
+
+Serial.parseInt() returns the first integer to be found in a serial input - this could be useful for parsing a single input that contains both words and numbers.
+
+
 
