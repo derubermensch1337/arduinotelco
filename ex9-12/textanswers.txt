@@ -7,5 +7,7 @@
 9f) Yes, it works!
 
 
-10a)
+10a) I2C is a serial standard protocol that makes use of a Serial Clock Pin and Serial Data Pin, to reduce complexity of wiring peripheral hardware. It is mainly used for short-distance communication, as long ranges will expose it to excessive noise that can interfere with the signals being sent.
+
+10b) Computational power can be saved by reducing the update frequency, and only rewriting parts of the screen that have changes, whilst keeping static text output static.
 
