@@ -1,0 +1,11 @@
+9a) According to the datasheet for our TMP36, the scale factor for our reading is 10mV/C. Following this, it is easy to derive the knowledge that each the temperature in C is (V/100), where V is the voltage reading off of the sensor.
+
+9b) The code initializes a char variable, and proceeds to iterate over an expression and printing it - Serial.print(c) will run 5 times, printing 0,2,4,6,8 whilst Serial.write(176), which corresponds to the degree sign.
+
+9c) print() statements parse and output any variable you put in them, e.g. strings, integers, floats. Meanwhile, write() statements output the byte size of whatever parameter you place within it.
+
+9f) Yes, it works!
+
+
+10a)
+
